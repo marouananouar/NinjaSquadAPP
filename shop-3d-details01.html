@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Empower your digital journey with NinjaSquadAPP. Effortlessly buy and discover a world of digital products. Simplify transactions and amplify your online presence today!">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  
 
   <meta name="theme-color" content="#0134d4">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -189,11 +189,11 @@
           <h3>Architectural 3d Renders</h3>
           <p>3D</p>
           <form action="#">
-            <select class="form-select mb-3" id="chooseSize" name="chooseSize" aria-label="Default select example">
-              <option value="1" selected >Our Plan</option>
-              <option value="2">Basic Plan</option>
-              <option value="3">Business Plan</option>
-              <option value="3">Premium Plan</option>
+            <select class="form-select mb-3" id="chooseSize" name="chooseSize" aria-label="Default select example" onchange="location = this.value;">
+              <option value="1">Our Services</option>
+              <option value="shop-2d-details01.html">2D</option>
+              <option value="3" selected>3D</option>
+              <option value="shop-interior-details01.html">Interior</option>
             </select>
           </form>
         </div>
@@ -202,7 +202,7 @@
       <div class="card product-details-card mb-3 direction-rtl">
         <div class="card-body">
           <h5>Description</h5>
-          <p>Explore Your Architectural Vision with Our 3D Services<b></p>
+          <p>Explore Your Architectural Vision with Our 3D Services</p>
 		   <p>Are you ready to see your project come to life in 3D, with every detail beautifully represented and every aspect meticulously designed? Our team of experts in 3D rendering and architectural design is here to turn that vision into a stunning reality!</p>
 		   <p>Why Choose Us?</p>
           <p class="mb-0">
@@ -280,7 +280,7 @@ Don't let your architectural vision remain confined to your imagination. Don't w
                   </div>
                   <!-- Purchase -->
                   <div class="purchase">
-                    <a class="btn btn-warning btn-lg btn-creative w-100" href="#">I Need This</a>
+                    <a class="btn btn-warning btn-lg btn-creative w-100" href="https://ninjasquad.gumroad.com/l/3D-BasicPlan/?wanted=true" target="_blank"><i class="bi bi-credit-card"></i> I Need This</a>
                     <small class="d-block text-white mt-2 ms-1">Simple and small project I will render images for a small simple project</small>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ Don't let your architectural vision remain confined to your imagination. Don't w
                   </div>
                   <!-- Purchase -->
                   <div class="purchase">
-                    <a class="btn btn-light btn-lg btn-creative" href="#">I Need This</a>
+                    <a class="btn btn-light btn-lg btn-creative" href="https://ninjasquad.gumroad.com/l/3D-StandardPlan/?wanted=true" target="_blank"><i class="bi bi-credit-card"></i> I Need This</a>
 					<small class="d-block text-white mt-2 ms-1">Ideal for clients seeking more detailed and realistic renderings</small>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ Don't let your architectural vision remain confined to your imagination. Don't w
                   </div>
                   <!-- Purchase -->
                   <div class="purchase">
-                    <a class="btn btn-primary btn-lg btn-creative" href="#">I Need This</a>
+                    <a class="btn btn-primary btn-lg btn-creative" href="https://ninjasquad.gumroad.com/l/3D-PremiumPlan/?wanted=true" target="_blank"><i class="bi bi-credit-card"></i> I Need This</a>
 					<small class="d-block text-white mt-2 ms-1">Offers top-tier quality and customization for clients looking for the most realistic and impactful</small>
                   </div>
                 </div>
@@ -407,7 +407,7 @@ Don't let your architectural vision remain confined to your imagination. Don't w
       <!-- Footer Content -->
       <div class="footer-nav position-relative">
         <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
-          <li class="active">
+          <li>
             <a href="home.html">
               <i class="bi bi-house"></i>
               <span>Home</span>
